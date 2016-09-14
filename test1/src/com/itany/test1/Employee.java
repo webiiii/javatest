@@ -1,7 +1,14 @@
 package com.itany.test1;
 
 public class Employee {
+	private Employee manager = null;
 	
+	public Employee getManager() {
+		return manager;
+	}
+	public void setManager(Employee manager) {
+		this.manager = manager;
+	}
 	public Employee(){
 		
 	}
